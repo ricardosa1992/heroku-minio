@@ -1,5 +1,6 @@
 FROM minio/minio:latest
+ADD entrypoint.sh /entrypoint.sh
+RUN mkdir -p /mnt/minio/data && \
+    chmod +x /entrypoint.sh 
 
-RUN mkdir -p /mnt/minio/data
-
-CMD ["server", "--address", ":"+$PORT, "/mnt/minio/data"]
+CMD /entrypoint.sh
