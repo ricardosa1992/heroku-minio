@@ -12,7 +12,7 @@
        "value": "minio123"
      }
   },
-  "website": "https://github.com/koori69/heroku-minio",
-  "repository": "https://github.com/koori69/heroku-minio",
+  "website": "https://github.com/ricardosa1992/heroku-minio",
+  "repository": "https://github.com/ricardosa1992/heroku-minio",
   "stack": "container"
  }
